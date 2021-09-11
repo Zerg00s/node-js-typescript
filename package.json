@@ -1,0 +1,29 @@
+{
+  "name": "typescript-sample",
+  "version": "1.0.0",
+  "description": "TypeScript sample",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .ts src",
+    "lint-fix": "eslint --fix --ext .ts src",
+    "pretty": "prettier --write 'src/**/*.ts'",
+    "start:dev": "nodemon"
+  },
+  "author": "Denis Molodtsov",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {}
+}
